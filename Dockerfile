@@ -5,4 +5,4 @@ WORKDIR /app
 
 RUN pip install -r requirement.txt
 
-EXPOSE 8080
+ENV PORT 8080
